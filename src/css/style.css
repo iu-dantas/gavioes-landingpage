@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: #ffffff;
+}
+
+header .navbar {
+    width: 100vw;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.quem-somos {
+    text-align: left;
+}
+
+.container-qs {
+    display: flex;
+    align-items: center;
+}
+
+.retrato {
+    margin-right: 20px;
+}
+
+.titulo {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+.lista {
+    margin-top: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: circle;
+    margin-bottom: 5px;
+}
+
+#inicio {
+    margin: 20px;
+}
+
+#sobre {
+    margin: 50px;
+}
+
+#responsabilidades {
+    margin: 50px;
+}
+
+#ideologia {
+    margin: 50px;
+}
+
+form {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-column label {
+    margin-bottom: 5px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-row .form-column {
+    width: 48%;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+input:required {
+    border: 1px solid #ffffff;
+
+
